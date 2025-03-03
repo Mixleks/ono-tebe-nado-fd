@@ -1,1 +1,1 @@
-https://github.com/Mixleks/ono-tebe-nado-fd
+https://github.com/Mixleks/ono-tebe-nado-fd (ЯНДЕКС-ПРАКТИКУМ)
