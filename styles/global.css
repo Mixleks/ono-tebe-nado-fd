@@ -8,7 +8,6 @@
 
 /* Ограничение ширины макета */
 body {
-
   font-family: Raleway, sans-serif;
 }
 section {
@@ -27,6 +26,10 @@ img {
   width: 100%;
 }
 
-
-
-
+.first,
+.overlay,
+.lots,
+.footer {
+  max-width: 100%;
+  overflow-x: hidden; 
+}
