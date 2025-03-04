@@ -140,6 +140,7 @@
 .first__title span:nth-child(2){
   transform: translateX(15px);
 }
+
 .text-algin-right {
   text-align: right;
   transform: translateX(30px);
@@ -250,6 +251,7 @@
   margin-top: 30px;
   display: block;
   padding-left: 40px;
+  font-size: 20px;
 }
 
 .about {
