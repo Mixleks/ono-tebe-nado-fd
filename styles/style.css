@@ -1,6 +1,7 @@
 .header {
   height: 293px;
   font-family: Raleway;
+  font-size: 18px;
   section {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -16,11 +17,11 @@
     a:after {
       display: inline-block;
       content: "";
-      width: 6px;
-      height: 6px;
+      width: 5px;
+      height: 5px;
       border: 1px solid;
       border-radius: 999px;
-      transform: translateX(16px);
+      transform: translateX(14px);
     }
     a:last-child:after {
       display: none;
@@ -34,7 +35,7 @@
 
 .header__menu {
   display: flex;
-  gap: 12px;
+  gap: 6px;
   text-underline-offset: 3.5px;
 }
 
@@ -48,8 +49,8 @@
 }
 
 .contacts {
-  max-width: 240px;
-  padding: 10px;
+  max-width: 250px;
+  padding: 10px 46px 10px 0px;
   margin-left: auto;
   line-height: 1.35;
   text-underline-offset: 4px;
@@ -104,7 +105,6 @@
   text-transform: uppercase;
   letter-spacing: 30px;
   margin-bottom: 20px;
-  line-height: 1.15;
   width: 1000px;
   height: 385px;
   padding-top: 165px;
@@ -112,7 +112,7 @@
 
 .first__title span {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .first__bottom {
   display: flex;
@@ -128,25 +128,27 @@
 
 .first__subtitle {
   font-size: 22px;
-  letter-spacing: 2px;
   text-align: left;
-  max-width: 637px;
   font-weight: 400;
-  word-spacing: 10px;
+  word-spacing: .83em;
   white-space: nowrap;
 }
 
 .text-algin-left {
   text-align: left;
 }
+.first__title span:nth-child(2){
+  transform: translateX(15px);
+}
 .text-algin-right {
   text-align: right;
+  transform: translateX(30px);
 }
 
 .first__button {
-  padding: 15px 30px;
-  font-size: 18px;
-  border: 2px solid #ffffff;
+  padding: 13px 32px;
+  font-size: 22px;
+  border: 1px solid #ffffff;
   background: transparent;
   color: white;
   text-transform: uppercase;
@@ -285,14 +287,13 @@
 
 .about__content {
   line-height: 47px;
-  margin-left: 40px;
   flex: 1;
-  margin-top: 133px;
+  margin-top: 136px;
 }
 
 .about__title {
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: 700;
   margin-bottom: 100px;
 }
 
@@ -306,14 +307,14 @@
   margin-bottom: 13px;
 }
 
-.footer {
+.footer section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  max-width: 1100px;
-  width: 100%;
-  margin: 0 auto;
+  align-items: self-start;
   min-height: 180px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 18px;
 }
 
 .footer__nav {
@@ -331,7 +332,7 @@
 
 .footer__socials {
   display: flex;
-  gap: 40px;
+  gap: 48px;
   a {
     display: flex;
     justify-content: center;

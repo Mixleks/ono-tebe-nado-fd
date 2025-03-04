@@ -15,6 +15,7 @@ section {
   margin: 0 auto;
   padding-left: 40px;
   padding-right: 40px;
+  overflow-x: hidden; 
 }
 /* Общие стили для ссылок */
 a {
@@ -26,10 +27,4 @@ img {
   width: 100%;
 }
 
-.first,
-.overlay,
-.lots,
-.footer {
-  max-width: 100%;
-  overflow-x: hidden; 
-}
+
