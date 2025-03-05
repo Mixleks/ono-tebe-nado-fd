@@ -3,20 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-/* Ограничение ширины макета */
-body {
-  font-family: Raleway, sans-serif;
-}
-
-section {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding-left: 40px;
-  padding-right: 40px;
-  overflow-x: hidden;
 }
 
 /* Общие стили для ссылок */

@@ -10,11 +10,10 @@
   </head>
   <body>
     <header class="header">
-      <section>
         <nav class="header__menu">
           <a class="nounder-line" href="./index.html">главная</a>
-          <a href="#Лоты">посмотреть лоты</a>
-          <a href="#О-нас">об аукционе</a>
+          <a href="#Lots">посмотреть лоты</a>
+          <a href="#Abbout">об аукционе</a>
         </nav>
         <a href="./index.html">
         <img
@@ -23,45 +22,38 @@
           alt="Логотип оно тебе надо"
         />
       </a>
-        <div class="contacts">
+        <address class="contacts">
           <p><a href="tel:+99995555555">+9 999 555 5555</a></p>
           <p><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
-          <address class="address">
+          <p>
             наб. Принсенграхт 263-<br />265, Амстердам
-          </address>
-        </div>
-      </section>
+          </p>
+        </address>
     </header>
     <main>
-      <section class="first">
-        <div class="overlay"></div>
+      <section class="cover overlay">
         <div class="content-wrapper">
-          <h1 class="first__title">
-            <span class="text-algin-left">ОНО</span>
-            <span>ТЕБЕ</span>
-            <span class="text-algin-right">НАДО</span>
+          <h1 class="cover__title">
+            <span class="text-algin-left">оно</span>
+            <span>тебе</span>
+            <span class="text-algin-right">надо</span>
           </h1>
-          <div class="first__bottom">
-            <p class="first__subtitle">
-              <span class="span-90">АУКЦИОН</span>
-              <span>ВЕЩЕЙ,</span>
-              <span>В</span>
-              <span>КОТОРЫЕ</span>
-              <span>НИКТО</span>
-              <span>НЕ</span>
-              <span>ВЕРИЛ</span>
+          <div class="cover__bottom">
+            <p class="cover__subtitle">
+              аукцион вещей, в которые никто не верил
             </p>
-            <button class="first__button">Сделать ставку</button>
+            <button class="cover__button">Сделать ставку</button>
           </div>
         </div>
       </section>
-      <section class="lots" id="Лоты">
+      <section class="lots" id="Lots">
         <h2 class="lots__title">ЛОТЫ</h2>
         <div class="lots__grid">
-          <article class="lot lot-1">
+          <a href="#">
+          <article class="lot lot-1 overlay">
             <div class="lot__content">
               <h3 class="lot__title">
-                <a href="#">ФИЛЬМ РЕЖИССЁРА, КОТОРЫЙ БРОСИЛ КИНОШКОЛУ</a>
+                ФИЛЬМ РЕЖИССЁРА, КОТОРЫЙ БРОСИЛ КИНОШКОЛУ
               </h3>
               <p class="lot__description">
                 Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
@@ -69,13 +61,13 @@
               </p>
             </div>
           </article>
-          <article class="lot lot-2">
+        </a>
+        <a href="#">
+          <article class="lot lot-2 overlay">
             <div class="lot__content">
               <h3 class="lot__title">
-                <a href="#"
-                  >Книга, где описан один скучный день из жизни рекламного
-                  агента</a
-                >
+                  Книга, где описан один скучный день из жизни рекламного
+                  агента
               </h3>
               <p class="lot__description">
                 Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
@@ -87,13 +79,13 @@
               </p>
             </div>
           </article>
-          <article class="lot lot-3">
+        </a>
+        <a href="#">
+          <article class="lot lot-3 overlay">
             <div class="lot__content">
               <h3 class="lot__title">
-                <a href="#"
-                  >Картина, которую повторит даже 5-летний сын маминой
-                  подруги</a
-                >
+                  Картина, которую повторит даже 5-летний сын маминой
+                  подруги
               </h3>
               <p class="lot__description">
                 Ну действительно, там линия, тут кружочек, а здесь и вовсе
@@ -103,11 +95,12 @@
               </p>
             </div>
           </article>
+          <a>
         </div>
         <a href="#" class="lots__more">Посмотреть больше</a>
       </section>
 
-      <section class="about" id="О-нас">
+      <section class="about" id="Abbout">
         <div class="about__container">
           <div class="about__logo">
             <img src="./images/logo-white.svg" alt="Логотип аукциона" />
@@ -135,19 +128,18 @@
       </section>
     </main>
     <footer class="footer">
-      <section>
-      <div class="footer__contact">
+      <address class="footer__contact">
         <p><a href="tel:+99995555555">+9 999 555 5555</a></p>
         <p><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></p>
-        <address class="address">
+        <p>
           наб. Принсенграхт 263-265,<br /> Амстердам
-        </address>
-      </div>
+      </p>
+      </address>
 
       <nav class="footer__nav">
         <a class="nounder-line" href="./index.html">главная</a>
-        <a href="#Лоты">посмотреть лоты</a>
-        <a href="#О-нас">об аукционе</a>
+        <a href="#Lots">посмотреть лоты</a>
+        <a href="#Abbout">об аукционе</a>
       </nav>
 
       <div class="footer__socials">
@@ -155,7 +147,6 @@
         <a href="#"><img src="images/vk.svg" alt="Логотип ВКонтакте"/></a>
         <a href="#"><img src="./images/pinterest.svg" alt="Логотип Pinterest"/></a>
       </div>
-    </section>
     </footer>
   </body>
 </html>
