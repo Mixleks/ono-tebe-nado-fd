@@ -71,7 +71,7 @@ address {
 
 .cover {
   text-align: center;
-  padding:165px 50px 50px 50px;
+  padding: 165px 50px 50px 50px;
   background: url("../images/cover.jpg") center/cover no-repeat;
 }
 
@@ -101,7 +101,7 @@ address {
   text-transform: uppercase;
   letter-spacing: 30px;
   margin-bottom: 100px;
-  width:100%;
+  width: 100%;
 }
 
 .cover__title span {
@@ -173,7 +173,7 @@ address {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  a{
+  a {
     text-decoration: none;
   }
 }
@@ -191,7 +191,6 @@ address {
   flex-direction: column;
   padding: 48px 40px;
 }
-
 
 .lot__content {
   position: relative;
@@ -223,7 +222,6 @@ address {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-
 
 .lot__description {
   font-size: 20px;
