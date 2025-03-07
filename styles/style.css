@@ -35,16 +35,19 @@ html {
   }
 }
 
-address {
+.address {
   font-style: normal;
   line-height: 1.35;
   text-underline-offset: 4px;
 }
 
-.header__menu {
+.menu {
   display: flex;
+  text-underline-offset: 4px;
+}
+
+.header__menu {
   gap: 6px;
-  text-underline-offset: 3.5px;
 }
 
 .header__logo {
@@ -167,6 +170,7 @@ address {
   margin-bottom: 27px;
   margin-left: 40px;
   line-height: 46.96px;
+  text-transform: uppercase;
 }
 
 .lots__grid {
@@ -201,14 +205,14 @@ address {
   flex-grow: 1;
 }
 
-.lot-1 {
+.card_type_film {
   background-image: url("../images/card-lot-01.jpg");
 }
 
-.lot-2 {
+.card_type_book {
   background-image: url("../images/card-lot-02.jpg");
 }
-.lot-3 {
+.card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
 }
 
@@ -275,6 +279,7 @@ address {
 }
 
 .about__title {
+  text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 100px;
@@ -300,10 +305,8 @@ address {
 }
 
 .footer__nav {
-  display: flex;
   flex-direction: column;
   text-align: center;
-  text-underline-offset: 3.5px;
 }
 
 .footer__contact {
